@@ -1,0 +1,71 @@
+\select@language {english}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Four main steps in gesture recognition\relax }}{2}{figure.caption.6}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Background segmentation in PFinder \cite {Wren}\relax }}{3}{figure.caption.8}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Normalized cuts segmentation \cite {Mori}\relax }}{4}{figure.caption.12}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Scene with estimated depth map \cite {Nickel}\relax }}{5}{figure.caption.14}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces 3D Haarlets and their approximation\cite {VandenBergh}\relax }}{6}{figure.caption.15}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Additive property of visual hulls \cite {Chu}\relax }}{6}{figure.caption.16}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Deformable shape context matching \cite {Mori-a}\relax }}{7}{figure.caption.17}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Hand model as polygonal surface and its skeleton with 15 degrees of freedom \cite {bray}\relax }}{8}{figure.caption.18}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Garbage gesture model \cite {Yang}\relax }}{9}{figure.caption.19}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Key gesture spotter model \cite {Yang}\relax }}{9}{figure.caption.20}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Hidden Markov Model \cite {Wang}\relax }}{9}{figure.caption.21}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Hidden Conditional Random Field \cite {Wang}\relax }}{10}{figure.caption.22}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Pose estimation with a color-marked glove and its 40$\times $40 pixels representation (tiny) \cite {mit}\relax }}{10}{figure.caption.23}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Sony PS3 Eye camera\relax }}{12}{figure.caption.24}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Color-marked textile glove\relax }}{13}{figure.caption.25}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {1$^{\text {st}}$ version}}}{13}{subfigure.3.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {2$^{\text {nd}}$ version}}}{13}{subfigure.3.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {3$^{\text {rd}}$ version}}}{13}{subfigure.3.2.3}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Setup of the interface\relax }}{14}{figure.caption.26}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Participants performing gestures\relax }}{17}{figure.caption.31}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Gestures with motions labeled as arrows\relax }}{18}{figure.caption.32}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pointing}}}{18}{subfigure.4.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zooming}}}{18}{subfigure.4.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Swiping}}}{18}{subfigure.4.2.3}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces General architecture of the Ergonomic Gestures Recognition system\relax }}{20}{figure.caption.33}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Image processing chain with reconfigurable processing steps: the filter and source image(s) can be specified using the overlay object belonging to the step. \relax }}{21}{figure.caption.34}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Lab threshold filter with overlay interface\relax }}{22}{figure.caption.35}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Specific chain used in this project: sequential execution order independent of input/output cross linking. Each output image is automatically stored in the global storage but filters can specify additional storage objects (like a vector of blob coordinates)\relax }}{23}{figure.caption.36}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Postures of hand with glove\relax }}{25}{figure.caption.38}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pointing}}}{25}{subfigure.5.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Pinching}}}{25}{subfigure.5.5.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Fingers left}}}{25}{subfigure.5.5.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Fingers right}}}{25}{subfigure.5.5.4}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Glove with overlayed hand model. $\alpha _{1\ldots n}$ indicates the angle of the vectors from the mass center to each finger coordinate. \relax }}{26}{figure.caption.39}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Posture labeling with an external subtitle editor. Each posture is labeled with the beginning and the end (in ms) of its presence in the video sequence. This demarcation is the basic structure of a subtitle file. \relax }}{28}{figure.caption.40}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Posture sample collection\relax }}{29}{figure.caption.41}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Sample supervision\relax }}{30}{figure.caption.42}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Cumulative view of finger positions for each label\relax }}{30}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pinching}}}{30}{subfigure.5.10.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Pointing}}}{30}{subfigure.5.10.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Fingers on the left}}}{30}{subfigure.5.10.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Fingers on the right}}}{30}{subfigure.5.10.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Garbage}}}{30}{subfigure.5.10.5}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Example of a non-linearly separable classification \cite {svmbook}\relax }}{31}{figure.caption.44}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Non-linear decision boundary}}}{31}{subfigure.5.11.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Linear decision boundary in feature space}}}{31}{subfigure.5.11.2}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Overlayed cumulative view of finger positions\relax }}{32}{figure.caption.46}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Left (blue), garbage (orange), right (green)}}}{32}{subfigure.5.12.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Pointing (red), pinching (green)}}}{32}{subfigure.5.12.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Pointing (red), right (green)}}}{32}{subfigure.5.12.3}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces State diagram of pointing gesture\relax }}{33}{figure.caption.47}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces State diagram of swiping (from left to right) gesture\relax }}{33}{figure.caption.48}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Resulting steps from tracker with filter chain from section \ref {sub:chosen-filter-chain}\relax }}{34}{figure.caption.49}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Lab thresholding filter}}}{34}{subfigure.6.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Erosion filter}}}{34}{subfigure.6.1.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Lab thresholding filter}}}{34}{subfigure.6.1.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Erosion filter}}}{34}{subfigure.6.1.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Blob detection filter}}}{34}{subfigure.6.1.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Blob detection filter}}}{34}{subfigure.6.1.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Add filter}}}{34}{subfigure.6.1.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {Add filter}}}{34}{subfigure.6.1.8}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Demo application\relax }}{36}{figure.caption.51}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

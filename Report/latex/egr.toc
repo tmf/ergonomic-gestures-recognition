@@ -1,0 +1,60 @@
+\select@language {english}
+\contentsline {part}{Abstract}{i}{section*.1}
+\contentsline {part}{Contents}{iii}{section*.4}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Context}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Ergonomic gestures}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Goals}{1}{section.1.3}
+\contentsline {chapter}{\numberline {2}Gesture recognition}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}Tracking}{2}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Figure-ground segmentation}{3}{subsection.2.1.1}
+\contentsline {subsubsection}{Background segmentation}{3}{section*.7}
+\contentsline {subsubsection}{Motion based segmentation}{3}{section*.9}
+\contentsline {subsubsection}{Appearance based segmentation}{3}{section*.10}
+\contentsline {subsubsection}{Shape based segmentation}{4}{section*.11}
+\contentsline {subsubsection}{Depth based segmentation}{4}{section*.13}
+\contentsline {subsection}{\numberline {2.1.2}Temporal correspondences}{4}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Pose estimation}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Model-free}{5}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Indirect model use}{7}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Direct model use}{7}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Recognition}{8}{section.2.3}
+\contentsline {section}{\numberline {2.4}Our approach}{10}{section.2.4}
+\contentsline {chapter}{\numberline {3}Setup and frameworks}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Hardware}{11}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Camera}{12}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Glove}{13}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Environmental constraints}{13}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Software}{14}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Overview}{15}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Libraries and frameworks}{15}{subsection.3.2.2}
+\contentsline {subsubsection}{OpenCV}{15}{section*.27}
+\contentsline {subsubsection}{dlibc++}{15}{section*.28}
+\contentsline {subsubsection}{QT}{16}{section*.29}
+\contentsline {subsubsection}{libconfig}{16}{section*.30}
+\contentsline {chapter}{\numberline {4}Chosen gestures}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}Wizard of Oz experiment}{17}{section.4.1}
+\contentsline {section}{\numberline {4.2}Gestures}{18}{section.4.2}
+\contentsline {chapter}{\numberline {5}Design and implementation}{19}{chapter.5}
+\contentsline {section}{\numberline {5.1}Architecture}{19}{section.5.1}
+\contentsline {section}{\numberline {5.2}Tracker configuration}{21}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Filter chain}{21}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Image processing filters}{22}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Chosen filter chain}{23}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Model mapping}{24}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Hand model}{25}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Mapping}{26}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Training and classification}{27}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Sample collection}{27}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Sample supervision}{29}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Posture training}{30}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Posture classification}{32}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.5}Gesture classification}{33}{subsection.5.4.5}
+\contentsline {chapter}{\numberline {6}Evaluation}{34}{chapter.6}
+\contentsline {section}{\numberline {6.1}Evaluation results}{34}{section.6.1}
+\contentsline {section}{\numberline {6.2}Use case}{35}{section.6.2}
+\contentsline {chapter}{\numberline {7}Conclusion and outlook}{37}{chapter.7}
+\contentsline {chapter}{Bibliography}{38}{chapter*.52}
+\contentsline {chapter}{List of Figures}{42}{chapter*.53}
+\contentsline {chapter}{List of Tables}{44}{chapter*.54}
+\contentsline {part}{Appendix}{45}{section*.55}

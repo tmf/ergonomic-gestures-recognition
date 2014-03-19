@@ -1,0 +1,57 @@
+%diuf beamer template
+%example presentation: 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%\documentclass{beamer}
+%%\include{diuf}
+%%\title{DIUF Beamer template}
+%%\author{Tom Forrer}
+%%\date[2009]{26.04.2009}
+%%\institute{TNS}
+%%\begin{document}
+%%	\hskip-1cm\maketitle
+%%\begin{frame}
+%%	\frametitle{Outline}
+%%	\tableofcontents
+%%\end{frame}
+%%\section{Introduction}
+%%\subsection{Hello World}
+%%\begin{frame}
+%%	\frametitle{Hello World}
+%%	\begin{itemize}
+%%		\item Item
+%%	\end{itemize}
+%%	\begin{block}{Theorem}
+%%			Test
+%%	\end{block}
+%%\end{frame}
+%%\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[latin1]{inputenc}
+
+\setbeamercovered{dynamic} % shows items in white grey before active
+%diuf green replaces standard blendedblue
+\definecolor{beamer@blendedblue}{rgb}{0.0,0.6,0.439}
+%diuf uses squares instead of triangles
+\setbeamertemplate{items}[square]
+%add indent and horizontal green bar to the frame titles
+\setbeamertemplate{frametitle}
+{
+    \vskip-36pt %-8pt when documentclass is set with 10pt
+	\ifbeamercolorempty[bg]{frametitle}{}{\nointerlineskip}
+	\hspace*{0.1\textwidth}\color{beamer@blendedblue}\rule{1.1\textwidth}{10pt}\hspace*{-1.6cm}\vspace*{-5pt}{\color{white}\begin{tiny}\insertframenumber\,/\,\inserttotalframenumber\end{tiny}}\vspace*{10pt}
+	\hspace*{0.1\textwidth}\usebeamerfont{frametitle}\color{beamer@blendedblue}\insertframetitle 
+}
+%add diuf logo on the footer section
+\setbeamertemplate{sidebar left}
+{ 
+	\vfill 
+	\rlap{\hskip0pt
+	\includegraphics[width=1.4\textwidth]{diuf.png} } %1.19
+} 
+%small tree on the upper left
+\useoutertheme{tree}
+%adjust left margin
+\setbeamersize{text margin left=2.6cm}
+%block environment
+\setbeamertemplate{blocks}[rounded][shadow=true]
+\setbeamercolor{block title}{bg = beamer@blendedblue, fg=white}

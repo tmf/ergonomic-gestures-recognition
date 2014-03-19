@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="mouse">
+    <file>Resources/egr_mouse.png</file>
+    <file>Resources/egr_mouse_bg.png</file>
+  </qresource>
+</RCC>

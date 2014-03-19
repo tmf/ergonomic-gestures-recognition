@@ -1,0 +1,292 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.12.22)  24 JAN 2011 15:26
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**title.tex
+(./title.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, arabic, armenian
+, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutch, u
+kenglish, usenglishmax, esperanto, estonian, farsi, finnish, french, galician, 
+german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic, assamese,
+ bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panjabi, tamil, 
+telugu, indonesian, interlingua, irish, italian, kurmanji, lao, latin, latvian,
+ lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portuguese, roma
+nian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turkish,
+ turkmen, ukrainian, uppersorbian, welsh, loaded.
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 \begin{titlepage}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \begin{center}
+                   
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 40--40
+[] 
+ []
+
+! Undefined control sequence.
+l.41 \includegraphics
+                     [width=0.6\textwidth]{images/unifr}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.41 \includegraphics[width=0.6\textwidth]
+                                          {images/unifr}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.41 \includegraphics[width=0.6\textwidth]
+                                          {images/unifr}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+! Undefined control sequence.
+l.44    \sffamily\huge
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (44.33342pt too wide) in paragraph at lines 43--48
+ \OT1/cmss/m/n/10 Ergonomic 
+ []
+
+
+Overfull \hbox (16.61111pt too wide) in paragraph at lines 43--48
+ \OT1/cmss/m/n/10 ges- 
+ []
+
+
+Overfull \hbox (20.47224pt too wide) in paragraph at lines 43--48
+ \OT1/cmss/m/n/10 tures 
+ []
+
+
+Overfull \hbox (25.63893pt too wide) in paragraph at lines 43--48
+ \OT1/cmss/m/n/10 recog- 
+ []
+
+
+Overfull \hbox (10.88889pt too wide) in paragraph at lines 43--48
+ \OT1/cmss/m/n/10 ni- 
+ []
+
+
+Overfull \hbox (16.16669pt too wide) in paragraph at lines 43--48
+ \OT1/cmss/m/n/10 tion 
+ []
+
+! Undefined control sequence.
+l.49    \rmfamily\Large
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (30.36116pt too wide) in paragraph at lines 50--50
+ []\OT1/cmr/m/n/10 Master 
+ []
+
+
+Overfull \hbox (17.22224pt too wide) in paragraph at lines 50--50
+ \OT1/cmr/m/n/10 the- 
+ []
+
+
+Overfull \hbox (10.66667pt too wide) in paragraph at lines 50--50
+ \OT1/cmr/m/n/10 sis 
+ []
+
+
+Overfull \hbox (44.80565pt too wide) in paragraph at lines 51--52
+ []\OT1/cmr/m/n/10 University 
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 51--52
+ \OT1/cmr/m/n/10 of 
+ []
+
+
+Overfull \hbox (15.72224pt too wide) in paragraph at lines 51--52
+ \OT1/cmr/m/n/10 Fri- 
+ []
+
+
+Overfull \hbox (25.30563pt too wide) in paragraph at lines 51--52
+ \OT1/cmr/m/n/10 bourg 
+ []
+
+! Undefined control sequence.
+l.53    \rmfamily\Large
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (19.72226pt too wide) in paragraph at lines 54--55
+ []\OT1/cmr/m/n/10 Tom 
+ []
+
+
+Overfull \hbox (17.94447pt too wide) in paragraph at lines 54--55
+ \OT1/cmr/m/n/10 For- 
+ []
+
+
+Overfull \hbox (12.27779pt too wide) in paragraph at lines 54--55
+ \OT1/cmr/m/n/10 rer 
+ []
+
+
+Overfull \hbox (53.41681pt too wide) in paragraph at lines 56--57
+ []\OT1/cmr/m/n/10 Supervision: 
+ []
+
+
+Overfull \hbox (14.33336pt too wide) in paragraph at lines 56--57
+ \OT1/cmr/m/n/10 Dr. 
+ []
+
+
+Overfull \hbox (15.41667pt too wide) in paragraph at lines 56--57
+ \OT1/cmr/m/n/10 De- 
+ []
+
+
+Overfull \hbox (12.2778pt too wide) in paragraph at lines 56--57
+ \OT1/cmr/m/n/10 nis 
+ []
+
+
+Overfull \hbox (37.3612pt too wide) in paragraph at lines 56--57
+ \OT1/cmr/m/n/10 Lalanne, 
+ []
+
+
+Overfull \hbox (21.55562pt too wide) in paragraph at lines 56--57
+ \OT1/cmr/m/n/10 Prof. 
+ []
+
+
+Overfull \hbox (18.19449pt too wide) in paragraph at lines 56--57
+ \OT1/cmr/m/n/10 Rolf 
+ []
+
+
+Overfull \hbox (12.50002pt too wide) in paragraph at lines 56--57
+ \OT1/cmr/m/n/10 In- 
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 56--57
+ \OT1/cmr/m/n/10 gold 
+ []
+
+! Undefined control sequence.
+<recently read> \today 
+                       
+l.58    \today
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 \end{titlepage}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> title.tex
+             
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 9 strings out of 493747
+ 159 string characters out of 3143545
+ 50070 words of memory out of 3000000
+ 3401 multiletter control sequences out of 15000+200000
+ 3945 words of font info for 15 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 13i,1n,10p,208b,107s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

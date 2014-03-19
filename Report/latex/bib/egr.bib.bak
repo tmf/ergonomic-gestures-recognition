@@ -1,0 +1,910 @@
+% This file was created with JabRef 2.7b.
+% Encoding: MacRoman
+
+@ARTICLE{Agarwal,
+  author = {Agarwal, A and Triggs, B},
+  title = {Recovering 3D human pose from monocular images},
+  journal = {IEEE transactions on pattern analysis and machine intelligence},
+  year = {2006},
+  volume = {28},
+  pages = {44-58},
+  number = {1},
+  month = {January},
+  author-email = {{Ankur.Agarwal@inrialpes.fr Bill.Triggs@inrialpes.fr}},
+  doc-delivery-number = {{982OR}},
+  issn = {{0162-8828}},
+  journal-iso = {IEEE Trans. Pattern Anal. Mach. Intell.},
+  keywords = {{computer vision; human motion estimation; machine learning; multivariate
+	regression}},
+  language = {{English}},
+  number-of-cited-references = {{32}},
+  owner = {tmf},
+  publisher = {{IEEE COMPUTER SOC}},
+  subject-category = {{Computer Science, Artificial Intelligence; Engineering, Electrical
+	\& Electronic}},
+  times-cited = {{66}},
+  timestamp = {2010.02.18},
+  type = {{Article}},
+  unique-id = {{ISI:000233172000004}}
+}
+
+@INPROCEEDINGS{Agarwal-a,
+  author = {Agarwal, A and Triggs, B},
+  title = {{3D human pose from silhouettes by relevance vector regression}},
+  booktitle = {{Proceedings of the 2004 IEEE Computer Society conference on computer
+	vision and pattern recognition, Vol 2}},
+  year = {2004},
+  pages = {{882-888}},
+  abstract = {{We describe a learning based method for recovering 3D human body
+	pose from single images and monocular image sequences. Our approach
+	requires neither an explicit body model nor prior labelling of body
+	parts in the image. Instead, it recovers pose by direct nonlinear
+	regression against shape descriptor vectors extracted automatically
+	from image silhouettes. For robustness against local silhouette segmentation
+	errors, silhouette shape is encoded by histogram-of-shape-contexts
+	descriptors. For the main regression, we evaluate both regularized
+	least squares and Relevance Vector Machine (RVM) regressors over
+	both linear and kernel bases. The RVM's provide much sparser regressors
+	without compromising performance, and kernel bases give a small but
+	worthwhile improvement in performance. For realism and good generalization
+	with respect to viewpoints, we train the regressors on images resynthesized
+	from real human motion capture data, and test it both quantitatively
+	on similar independent test data, and qualitatively on a real image
+	sequence. Mean angular errors of 6-7 degrees are obtained a factor
+	of 3 better than the current state of the art for the much simpler
+	upper body problem.}},
+  affiliation = {{Agarwal, A (Reprint Author), CNRS, GRAVIR, INRIA, 655 Ave Europe,
+	F-38330 Montbonnot St Martin, France. CNRS, GRAVIR, INRIA, F-38330
+	Montbonnot St Martin, France.}},
+  book-group-author = {{IEEE Computer Society}},
+  doc-delivery-number = {{BAU37}},
+  isbn = {{0-7695-2158-4}},
+  issn = {{1063-6919}},
+  language = {{English}},
+  number-of-cited-references = {{18}},
+  owner = {tmf},
+  subject-category = {{Computer Science, Artificial Intelligence}},
+  times-cited = {{10}},
+  timestamp = {2011.01.22},
+  type = {{Proceedings Paper}},
+  unique-id = {{ISI:000223605500118}}
+}
+
+@INPROCEEDINGS{Azoz,
+  author = {Azoz, Y. and Devi, L. and Sharma, R.},
+  title = {Reliable tracking of human arm dynamics by multiple cue integration
+	and constraint fusion},
+  booktitle = {Proc. IEEE Computer Society Conference on Computer Vision and Pattern
+	Recognition},
+  year = {1998},
+  pages = {905--910},
+  month = {23--25 June },
+  owner = {tmf},
+  timestamp = {2009.12.18}
+}
+
+@ARTICLE{opencv,
+  author = {Bradski, G.},
+  title = {{The OpenCV Library}},
+  journal = {Dr. Dobb's Journal of Software Tools},
+  year = {2000},
+  citeulike-article-id = {2236121},
+  keywords = {bibtex-import},
+  posted-at = {2008-01-15 19:21:54},
+  priority = {4}
+}
+
+@INPROCEEDINGS{bray,
+  author = {Bray, M. and Koller-Meier, E. and Van Gool, L.},
+  title = {Smart particle filtering for 3D hand tracking},
+  booktitle = {Automatic Face and Gesture Recognition, 2004. Proceedings. Sixth
+	IEEE International Conference on},
+  year = {2004},
+  pages = { 675 - 680},
+  month = may,
+  abstract = { Solving the tracking of an articulated structure in a reasonable
+	time is a complex task mainly due to the high dimensionality of the
+	problem. A new optimization method, called stochastic meta-descent
+	(SMD), based on gradient descent with adaptive and parameter specific
+	step sizes was introduced previously [M. Bray et al., 2004] to solve
+	this challenging problem. While the local optimization works very
+	well, reaching the global optimum is not guaranteed. We therefore
+	propose a novel algorithm which combines the SMD optimization with
+	a particle filter to form 'smart particles'. After propagating the
+	particles, SMD is performed and the resulting new particle set is
+	included such that the original Bayesian distribution is not altered.
+	The resulting 'smart particle filter' (SPF) tracks high dimensional
+	articulated structures with far fewer samples than previous methods.
+	Additionally, it can handle multiple hypotheses, clutter and occlusion
+	which pure optimization approaches have problems. The performance
+	of the SMD particle filter is illustrated in challenging 3D hand
+	tracking sequences demonstrating a better robustness and accuracy
+	than those of a single SMD optimization or an annealed particle filter.},
+  issn = { },
+  keywords = { 3D hand tracking; Bayesian distribution; articulated structure; smart
+	particle filtering; stochastic metadescent method; Bayes methods;
+	filtering theory; image motion analysis; optimisation;}
+}
+
+@MASTERSTHESIS{psychology,
+  author = {Caroline Biewer, Thomas Holdener},
+  title = {Usability evaluation of a system for gesture recognition},
+  school = {University of Fribourg, Department of Psychology},
+  year = {2010},
+  owner = {tmf},
+  timestamp = {2011.01.24}
+}
+
+@ARTICLE{blobs,
+  author = {Chang, F and Chen, CJ and Lu, CJ},
+  title = {{A linear-time component-labeling algorithm using contour tracing
+	technique}},
+  journal = {{Computer Vision And Image Understanding}},
+  year = {{2004}},
+  volume = {{93}},
+  pages = {{206-220}},
+  number = {{2}},
+  month = {{February}},
+  abstract = {{A new linear-time algorithm is presented in this paper that simultaneously,
+	labels connected components (to be referred to merely as components
+	in this paper) and their contours in binary images. The main step
+	of this algorithm is to use a contour tracing technique to detect
+	the external contour and possible internal contours of each component,
+	and also to identify and label the interior area of each component.
+	Labeling is done in a single pass over the image, while contour points
+	are revisited more than once, but no more than a constant number
+	of times. Moreover, no re-labeling is required throughout the entire
+	process, as it is required by other algorithms. Experimentation on
+	various types of images (characters, halftone pictures, photographs,
+	newspaper, etc.) shows that our method outperforms methods that use
+	the equivalence technique. Our algorithm not only labels components
+	but also extracts component contours and sequential orders of contour
+	points, which can be useful for many applications. (C) 2003 Elsevier
+	Inc. All rights reserved.}},
+  address = {{525 B ST, STE 1900, SAN DIEGO, CA 92101-4495 USA}},
+  affiliation = {{Chang, F (Reprint Author), Acad Sinica, Inst Informat Sci, 128 Acad
+	Rd,Sect 2, Taipei 115, Taiwan. Acad Sinica, Inst Informat Sci, Taipei
+	115, Taiwan.}},
+  author-email = {{fchang@iis.sinica.edu.tw dean@iis.sinica.edu.tw cjlu@iis.sinica.edu.tw}},
+  doc-delivery-number = {{766UT}},
+  issn = {{1077-3142}},
+  journal-iso = {{Comput. Vis. Image Underst.}},
+  keywords = {{component-labeling algorithm; contour tracing; linear-time algorithm}},
+  keywords-plus = {{RECOGNITION}},
+  language = {{English}},
+  number-of-cited-references = {{16}},
+  publisher = {{ACADEMIC PRESS INC ELSEVIER SCIENCE}},
+  subject-category = {{Computer Science, Artificial Intelligence; Engineering, Electrical
+	\& Electronic}},
+  times-cited = {{62}},
+  type = {{Article}},
+  unique-id = {{ISI:000188394500005}}
+}
+
+@INPROCEEDINGS{Chien,
+  author = {Ching-Yu Chien and Chung-Lin Huang and Chih-Ming Fu},
+  title = {A Vision-Based Real-Time Pointing Arm Gesture Tracking and Recognition
+	System},
+  booktitle = {Proc. IEEE International Conference on Multimedia and Expo},
+  year = {2007},
+  pages = {983--986},
+  month = {2--5 July },
+  owner = {tmf},
+  timestamp = {2009.12.18}
+}
+
+@INPROCEEDINGS{Chu,
+  author = {Chi-Wei Chu and Cohen, I.},
+  title = {{Posture and Gesture Recognition using 3D Body Shapes Decomposition}},
+  booktitle = {Proc. IEEE Computer Society Conference on Computer Vision and Pattern
+	Recognition},
+  year = {2005},
+  pages = {69--69},
+  month = {25--25 June },
+  owner = {tmf},
+  timestamp = {2009.12.18}
+}
+
+@INPROCEEDINGS{Collins,
+  author = {Collins, R. T. and Gross, R. and Jianbo Shi},
+  title = {Silhouette-based human identification from body shape and gait},
+  booktitle = {Proc. Fifth IEEE International Conference on Automatic Face and Gesture
+	Recognition},
+  year = {2002},
+  pages = {366--371},
+  month = {21--21 May },
+  owner = {tmf},
+  timestamp = {2009.12.18}
+}
+
+@ARTICLE{hand-review,
+  author = {Erol, Ali and Bebis, George and Nicolescu, Mircea and Boyle, Richard
+	D. and Twombly, Xander},
+  title = {{Vision-based hand pose estimation: A review}},
+  journal = {{Computer Vision And Image Understanding}},
+  year = {{2007}},
+  volume = {{108}},
+  pages = {{52-73}},
+  number = {{1-2}},
+  month = {{October-November}},
+  abstract = {{Direct use of the hand as an input device is an attractive method
+	for providing natural human-computer interaction (HCI). Currently,
+	the only technology that satisfies the advanced requirements of hand-based
+	input for HCI is glove-based sensing. This technology, however, has
+	several drawbacks including that it hinders the ease and naturalness
+	with which the user can interact with the computer-controlled environment,
+	and it requires long calibration and setup procedures. Computer vision
+	(CV) has the potential to provide more natural, non-contact solutions.
+	As a result, there have been considerable research efforts to use
+	the hand as an input device for HCI. In particular, two types of
+	research directions have emerged. One is based on gesture classification
+	and aims to extract high-level abstract information corresponding
+	to motion patterns or postures of the hand. The second is based on
+	pose estimation systems and aims to capture the real 3D motion of
+	the hand. This paper presents a literature review on the latter research
+	direction, which is a very challenging problem in the context of
+	HCI. (C) 2007 Elsevier Inc. All rights reserved.}},
+  address = {{525 B ST, STE 1900, SAN DIEGO, CA 92101-4495 USA}},
+  affiliation = {{Erol, A (Reprint Author), Univ Nevada, Comp Vis Lab, Reno, NV 89557
+	USA. Univ Nevada, Comp Vis Lab, Reno, NV 89557 USA. NASA, Ames Res
+	Ctr, BioVis Lab, Moffett Field, CA 94035 USA.}},
+  author-email = {{aerol@cse.unr.edu}},
+  doc-delivery-number = {{218RW}},
+  issn = {{1077-3142}},
+  journal-iso = {{Comput. Vis. Image Underst.}},
+  keywords = {{hand pose estimation; gesture recognition; gesture-based HCI}},
+  keywords-plus = {{HUMAN-COMPUTER INTERACTION; HUMAN MOTION ANALYSIS; GESTURE RECOGNITION;
+	MODEL; TRACKING; IMAGE; INTERFACE}},
+  language = {{English}},
+  number-of-cited-references = {{135}},
+  publisher = {{ACADEMIC PRESS INC ELSEVIER SCIENCE}},
+  subject-category = {{Computer Science, Artificial Intelligence; Engineering, Electrical
+	\& Electronic}},
+  times-cited = {{19}},
+  type = {{Review}},
+  unique-id = {{ISI:000250033600006}}
+}
+
+@INPROCEEDINGS{Gunes,
+  author = {Gunes, H. and Piccardi, M.},
+  title = {Fusing face and body gesture for machine recognition of emotions},
+  booktitle = {Proc. IEEE International Workshop on Robot and Human Interactive
+	Communication ROMAN 2005},
+  year = {2005},
+  pages = {306--311},
+  month = {13--15 August},
+  doi = {10.1109/ROMAN.2005.1513796},
+  owner = {tmf},
+  timestamp = {2009.12.18}
+}
+
+@INPROCEEDINGS{Gunesa,
+  author = {Gunes, H. and Piccardi, M. },
+  title = {Automatic visual recognition of face and body action units},
+  booktitle = {Proc. Third International Conference on Information Technology and
+	Applications ICITA 2005},
+  year = {2005},
+  volume = {1},
+  pages = {668--673},
+  month = {4--7 July },
+  doi = {10.1109/ICITA.2005.83},
+  owner = {tmf},
+  timestamp = {2009.12.18}
+}
+
+@BOOK{svmbook,
+  title = {Statistics Methods and Applications. A Compre-
+	
+	hensive Reference for Science, Industry and Data Mining},
+  publisher = {Statsoft: Tulsa},
+  year = {2006},
+  author = {Thomas Hill and Pawel Lewicki},
+  pages = {319},
+  owner = {tmf},
+  timestamp = {2011.01.24}
+}
+
+@INPROCEEDINGS{JihunPark,
+  author = {{Jihun Park} and {Sunghun Park} and Aggarwal, J.K.},
+  title = {Model-based human motion tracking and behavior recognition using
+	hierarchical finite state automata},
+  booktitle = {{Computational Science and it's Applications - ICCSA 2004. International
+	Conference. Proceedings (Lecture Notes in Comput. Sci. Vol.3046)}},
+  year = {{2004}},
+  editor = {Lagana, A. and Gavrilova, M.L. and Kumar, V. and Mun, Y. and Tan,
+	C.J. and Gervasi, O.},
+  number = {{Vol.4}},
+  pages = {{311-20 Vol.4}},
+  address = {{Berlin, Germany}},
+  month = {{2004}},
+  organization = {{Univ. of Perugia, Italy; Univ. of Calgary, Canada; Univ. of Minnesota,
+	USA; Queen's Univ. of Belfast, UK; Heuchera Technol., UK; GRID.IT:
+	Enabling Platforms for High-Performance Computational Grids Oriented
+	to Scalable Virtual Organizations of the Minitsty of Sci. and Educ.
+	of Italy; COST - European Cooperation in the Field of Sci. and Tech.
+	Res}},
+  publisher = {{Springer-Verlag}},
+  note = {{Computational Science and it's Applications - ICCSA 2004. International
+	Conference. Proceedings, 14-17 May 2004, Assisi, Italy}},
+  abstract = {{The generation of motion of an articulated body for computer animation
+	is an expensive and time-consuming task. Recognition of human actions
+	and interactions is important to video annotation, automated surveillance,
+	and content-based video retrieval. This paper presents a new model-based
+	human-intervention-free approach to articulated body motion tracking
+	and recognition of human interaction using static-background monocular
+	video sequences. This paper presents two major applications based
+	on basic motion tracking: motion capture and human behavior recognition.
+	To determine a human body configuration in a scene, a 3D human body
+	model is postulated and projected on a 2D projection plane to overlap
+	with the foreground image silhouette. We convert the human model
+	body overlapping problem into a parameter optimization problem to
+	avoid the kinematics singularity problem. Unlike other methods, our
+	body tracking does not need any user intervention. A cost function
+	is used to estimate the degree of the overlapping between the foreground
+	input image silhouette and a projected 3D model body silhouette.
+	The configuration the best overlap with the foreground of the image
+	least overlap with the background is sought. The overlapping is computed
+	using computational geometry by converting a set of pixels from the
+	image domain to a polygon in the 2D projection plane domain. We recognize
+	human interaction motion using hierarchical finite state automata
+	(FA). The model motion data we get from tracking is analyzed to get
+	various states and events in terms of feet, torso, and hands by a
+	low-level behavior recognition model. The recognition model represents
+	human behaviors as sequences of states that classify the configuration
+	of individual body parts in space and time. To overcome the exponential
+	growth of the number of states that usually occurs in a single-level
+	FA, we present a new hierarchical FA that abstracts states and events
+	from motion data at three levels: the low-level FA analyzes body
+	parts only, the middle-level FAs recognize motion and the high-level
+	FAs analyze a human interaction. Motion tracking results and behavior
+	recognition from video sequences are very encouraging.}},
+  affiliation = {{Jihun Park; Dept. of Comput Eng., Hongik Univ., Seoul, South Korea.}},
+  identifying-codes = {{[C2005-04-6130B-057]}},
+  isbn = {{3 540 22054 2}},
+  keywords = {{Practical/ computational geometry; computer animation; finite state
+	machines; gait analysis; gesture recognition; image motion analysis;
+	image sequences; tracking/ computer animation; human behavior recognition;
+	articulated body motion tracking; video sequences; motion capture;
+	image silhouette; computational geometry; hierarchical finite state
+	automata/ C6130B Graphics techniques; C5260B Computer vision and
+	image processing techniques; C4220 Automata theory}},
+  language = {{English}},
+  number-of-references = {{9}},
+  owner = {tmf},
+  publication-type = {{C}},
+  timestamp = {2010.02.18},
+  type = {{Conference Paper}},
+  unique-id = {{INSPEC:8302406}}
+}
+
+@INPROCEEDINGS{dataglove,
+  author = {Ji-Hwan Kim and Nguyen Duc Thang and Tae-Seong Kim},
+  title = {{3-D hand motion tracking and gesture recognition using a data glove}},
+  booktitle = {Industrial Electronics, 2009. ISIE 2009. IEEE International Symposium
+	on},
+  year = {2009},
+  pages = {1013 -1018},
+  month = {July},
+  abstract = {Hand motion tracking and gesture recognition are a fundamental technology
+	in the field of proactive computing for a better human computer interaction
+	system. In this paper, we have developed a 3-D hand motion tracking
+	and gesture recognition system via a data glove (namely the KHU-1
+	data glove consisting of three tri-axis accelerometer sensors, one
+	controller, and one Bluetooth). The KHU-1 data glove is capable of
+	transmitting hand motion signals to a PC through wireless communication
+	via Bluetooth. Also we have implemented a 3-D digital hand model
+	for hand motion tracking and recognition. The implemented 3-D digital
+	hand model is based on the kinematic chain theory utilizing ellipsoids
+	and joints. Finally, we have utilized a rule-based algorithm to recognize
+	simple hand gestures namely scissor, rock, and paper using the 3-D
+	digital hand model and the KHU-1 data glove. Some preliminary experimental
+	results are presented in this paper.},
+  keywords = {3D digital hand model;3D human hand motion tracking;Bluetooth;KHU-1
+	data glove;gesture recognition;human computer interaction system;kinematic
+	chain theory;Bluetooth;data gloves;gesture recognition;human computer
+	interaction;image motion analysis;}
+}
+
+@ARTICLE{dlib,
+  author = {Davis E. King},
+  title = {{Dlib-ml: A Machine Learning Toolkit}},
+  journal = {Journal of Machine Learning Research},
+  year = {2009},
+  volume = {10},
+  pages = {1755-1758}
+}
+
+@INBOOK{kurtenbach,
+  chapter = {Gestures in Human-Computer Communications},
+  pages = {309-317},
+  title = {The Art of Human-Computer Interface Design},
+  publisher = {Add},
+  year = {1990},
+  editor = {B. Laurel},
+  author = {Gord Kurtenbach and Eric Hulteen},
+  owner = {tmf},
+  timestamp = {2011.01.25}
+}
+
+@INPROCEEDINGS{Lementec,
+  author = {Lementec, JC and Bajcsy, P},
+  title = {Recognition of arm gestures using multiple orientation sensors: Gesture
+	classification},
+  booktitle = {ITSC 2004: 7TH INTERNATIONAL IEEE CONFERENCE ON INTELLIGENT TRANSPORTATION
+	SYSTEMS, PROCEEDINGS},
+  year = {2004},
+  pages = {965-970},
+  address = {345 E 47TH ST, NEW YORK, NY 10017 USA},
+  organization = {IEEE},
+  publisher = {IEEE},
+  note = {7th IEEE International Conference on Intelligent Transportation Systems,
+	Washington, DC, 2004},
+  abstract = {We present a gesture recognition algorithm from Euler angles acquired
+	using multiple orientation sensors. This algorithm is a part of a
+	system for controlling Unmanned Aerial Vehicles (UAVs) in the presence
+	of manned aircrafts on an aircraft deck. After exploring multiple
+	approaches to arm gesture recognition, we investigate a real-time
+	arm gesture recognition system using the IS-300 Pro Precision Motion
+	Tracker by InterSense. Our work consists of (1) analyzing several
+	gesture recognition approaches leading to a selection of an active
+	sensor, (2) gesture modeling using Euler angles, (3) low-level gesture
+	characterization, and (4) model-based gesture classification algorithms.
+	We have implemented and tested the proposed real-time arm gesture
+	recognition system in a laboratory environment with a robot that
+	represents an UAV surrogate.},
+  affiliation = {Bajcsy, P (Reprint Author), Univ Illinois, Natl Ctr Supercomp Applicat,
+	Champaign, IL 61820 USA. Univ Illinois, Natl Ctr Supercomp Applicat,
+	Champaign, IL 61820 USA.},
+  book-group-author = {IEEE},
+  doc-delivery-number = {BBF45},
+  isbn = {0-7803-8500-4},
+  keywords-plus = {HUMAN MOVEMENT},
+  language = {English},
+  number-of-cited-references = {11},
+  owner = {tmf},
+  subject-category = {Computer Science, Artificial Intelligence; Computer Science, Information
+	Systems; Computer Science, Interdisciplinary Applications; Imaging
+	Science \& Photographic Technology; Transportation Science \& Technology},
+  times-cited = {0},
+  timestamp = {2010.02.18},
+  type = {Proceedings Paper},
+  unique-id = {ISI:000225223000175}
+}
+
+@ARTICLE{Moeslund,
+  author = {Moeslund, T.B. and Hilton, A. and Krueger, V.},
+  title = {A survey of advances in vision-based human motion capture and analysis},
+  journal = {Computer vision and image understanding},
+  year = {2006},
+  volume = {104},
+  pages = {90--126},
+  number = {2-3},
+  owner = {tmf},
+  publisher = {Elsevier},
+  timestamp = {2011.01.22}
+}
+
+@INPROCEEDINGS{Mori,
+  author = {Mori, G and Ren, XF and Efros, AA and Malik, J},
+  title = {{Recovering human body configurations: Combining segmentation and
+	recognition}},
+  booktitle = {{Proceedings of the 2004 IEEE Computer Society conference on computer
+	vision and pattern recognition, Vol 2}},
+  year = {{2004}},
+  pages = {{326-333}},
+  abstract = {{The goal of this work is to take an image such as the one in Figure
+	1 (a), detect a human figure, and localize his joints and limbs (b)
+	along with their associated pixel masks (c). In this work we attempt
+	to tackle this problem in a general setting. The dataset we use is
+	a collection of sports news photographs of baseball players, varying
+	dramatically in pose and clothing. The approach that we take is to
+	use segmentation to guide our recognition algorithm to salient bits
+	of the image. We use this segmentation approach to build limb and
+	torso detectors, the outputs of which are assembled into human figures.
+	We present quantitative results on torso localization, in addition
+	to shortlisted full body configurations.}},
+  affiliation = {{Mori, G (Reprint Author), Univ Calif Berkeley, Div Comp Sci, Berkeley,
+	CA 94720 USA. Univ Calif Berkeley, Div Comp Sci, Berkeley, CA 94720
+	USA.}},
+  book-group-author = {{IEEE Computer Society}},
+  doc-delivery-number = {{BAU37}},
+  isbn = {{0-7695-2158-4}},
+  issn = {{1063-6919}},
+  language = {{English}},
+  number-of-cited-references = {{18}},
+  owner = {tmf},
+  subject-category = {{Computer Science, Artificial Intelligence}},
+  times-cited = {{3}},
+  timestamp = {2011.01.22},
+  type = {{Proceedings Paper}},
+  unique-id = {{ISI:000223605500043}}
+}
+
+@ARTICLE{Mori-a,
+  author = {Mori, G., Malik, J.,},
+  title = {{Recovering 3D human body configurations using shape contexts}},
+  journal = {Pattern Analysis and Machine Intelligence, IEEE Transactions on},
+  year = {2006},
+  volume = {28},
+  pages = {1052 -1062},
+  number = {7},
+  month = {July },
+  issn = {0162-8828},
+  keywords = {3D human body configurations;body joints;body pose;kinematic chain-based
+	deformation model;shape context matching;shape contexts;edge detection;gesture
+	recognition;image matching;},
+  owner = {tmf},
+  timestamp = {2011.01.22}
+}
+
+@CONFERENCE{Nickel,
+  author = {Nickel, K. and Stiefelhagen, R.},
+  title = {{Pointing gesture recognition based on 3D-tracking of face, hands
+	and head orientation}},
+  booktitle = {Proceedings of the 5th international conference on Multimodal interfaces},
+  year = {2003},
+  pages = {146},
+  organization = {ACM},
+  owner = {tmf},
+  timestamp = {2011.01.22}
+}
+
+@INBOOK{schiaratura,
+  chapter = {Gesture and speech},
+  pages = {239-281},
+  title = {Fundamentals of Nonverbal Behavior},
+  publisher = {Press Syndicate of the University of Cambridge},
+  year = {1991},
+  editor = {R. Feld,an and B. Rime},
+  author = {B. Rime and L. Schiaratura},
+  owner = {tmf},
+  timestamp = {2011.01.25}
+}
+
+@INPROCEEDINGS{fast2,
+  author = {Edward Rosten and Tom Drummond},
+  title = {Machine learning for high-speed corner detection},
+  booktitle = {European Conference on Computer Vision},
+  year = {2006},
+  volume = {1},
+  pages = {430--443},
+  month = {May},
+  notes = {Poster presentation}
+}
+
+@INPROCEEDINGS{fast,
+  author = {Edward Rosten and Tom Drummond},
+  title = {Fusing points and lines for high performance tracking.},
+  booktitle = {IEEE International Conference on Computer Vision},
+  year = {2005},
+  volume = {2},
+  pages = {1508--1511},
+  month = {October},
+  notes = {Oral presentation}
+}
+
+@INPROCEEDINGS{Schmidt,
+  author = {Schmidt, J. and Fritsch, J. and Kwolek, B.},
+  title = {{Kernel particle filter for real-time 3D body tracking in monocular
+	color images}},
+  booktitle = {Proc. 7th International Conference on Automatic Face and Gesture
+	Recognition FGR 2006},
+  year = {2006},
+  pages = {567--572},
+  month = {2--6 April },
+  owner = {tmf},
+  timestamp = {2009.12.18}
+}
+
+@INPROCEEDINGS{Sidenbladh,
+  author = {Sidenbladh, H},
+  title = {Detecting human motion with support vector machines},
+  booktitle = {{Proceedings of the 17th international conference on pattern recognition}},
+  year = {2004},
+  volume = {2},
+  pages = {188-191},
+  abstract = {This paper presents a method for detection of humans in video sequences.
+	The intended application of the method is outdoor surveillance. In
+	such an uncontrolled environment, the appearance of humans varies
+	hugely due to clothing, identity, weather and amount and direction
+	of light. The idea is therefore to detect patterns of human motion,
+	which to a large extent is independent of the differences in appearance.
+	To this end, a Support Vector Machine is trained with dense optical
+	flow patterns originating from humans. The subjects are moving in
+	different angles to the camera plane, on different image scales.
+	This trained SVM is the core of a human detection algorithm which
+	searches optical flow images for human-like motion patterns.},
+  affiliation = {Sidenbladh, H (Reprint Author), Swedish Def Res Agcy, Dept Data \&
+	Informat Fus, Div Command \& Control Syst, SE-17290 Stockholm, Sweden.
+	Swedish Def Res Agcy, Dept Data \& Informat Fus, Div Command \& Control
+	Syst, SE-17290 Stockholm, Sweden.},
+  doc-delivery-number = {BAW22},
+  isbn = {0-7695-2128-2},
+  issn = {1051-4651},
+  keywords-plus = {RECOGNITION},
+  language = {English},
+  number-of-cited-references = {15},
+  owner = {tmf},
+  subject-category = {Computer Science, Artificial Intelligence},
+  times-cited = {3},
+  timestamp = {2011.01.22},
+  type = {Proceedings Paper},
+  unique-id = {ISI:000223877400045}
+}
+
+@INPROCEEDINGS{Takahashi,
+  author = {Takahashi, Kazuhiko and Nagasawa, Yusuke and Hashimoto, Masafumi},
+  title = {{Remarks on Markerless Human Motion Capture from Voxel Reconstruction
+	with Simple Human Model}},
+  booktitle = {{2008 IEEE/RSJ International Conference on Robots and Intelligent
+	Systems}},
+  year = {{2008}},
+  pages = {{755-760}},
+  abstract = {{This paper investigates a human body posture estimation method based
+	on the back projection of human silhouette images extracted from
+	multi-camera images. The multi-camera system is based on a server-client
+	system with local network of 1000Base-T to achieve a voxel 3D reconstruction
+	of human body posture in real-time. In order to extract significant
+	points of the human body such as head, neck, shoulders, elbow joints,
+	hands, waist, knee joints, and toes in 3D, an articulated cylindrical
+	human model is applied to the voxel reconstruction of human body.
+	To evaluate the proposed human body posture estimation method, 3D
+	reconstruction experiments of human body posture and extraction experiments
+	of human body's significant points are carried out. The system runs
+	in real time (9 frames/sec with 50 x 50 x 50 voxel resolution) and
+	the experimental results confirm both the feasibility and effectiveness
+	of the proposed system in 3D human body posture estimation.}},
+  affiliation = {{Takahashi, K (Reprint Author), Doshisha Univ, Fac Sci \& Engn, Dept
+	Informat Syst Design, Kyoto 3100321, Japan. {[}Takahashi, Kazuhiko;
+	Hashimoto, Masafumi] Doshisha Univ, Fac Sci \& Engn, Dept Informat
+	Syst Design, Kyoto 3100321, Japan.}},
+  doc-delivery-number = {{BIJ26}},
+  isbn = {{978-1-4244-2057-5}},
+  keywords-plus = {{SHAPE RECONSTRUCTION; VIDEO; TRACKING}},
+  language = {{English}},
+  number-of-cited-references = {{19}},
+  owner = {tmf},
+  subject-category = {{Computer Science, Artificial Intelligence; Computer Science, Cybernetics;
+	Computer Science, Theory \& Methods; Engineering, Electrical \& Electronic;
+	Robotics}},
+  times-cited = {{0}},
+  timestamp = {2011.01.22},
+  type = {{Proceedings Paper}},
+  unique-id = {{ISI:000259998200118}}
+}
+
+@INPROCEEDINGS{VandenBergh,
+  author = {Van den Bergh, M. and Koller-Meier, E. and Van Gool, L. },
+  title = {{Fast Body Posture Estimation using Volumetric Features}},
+  booktitle = {Proc. IEEE Workshop on Motion and video Computing WMVC 2008},
+  year = {2008},
+  pages = {1--8},
+  month = {8--9 January},
+  owner = {tmf},
+  timestamp = {2009.12.18}
+}
+
+@ARTICLE{mit,
+  author = {Wang, Robert Y. and Popovi\'{c}, Jovan},
+  title = {Real-time hand-tracking with a color glove},
+  journal = {ACM Trans. Graph.},
+  year = {2009},
+  volume = {28},
+  pages = {63:1--63:8},
+  month = {July},
+  acmid = {1531369},
+  address = {New York, NY, USA},
+  articleno = {63},
+  issn = {0730-0301},
+  issue = {3},
+  keywords = {augmented reality, hand tracking, motion capture, user interface},
+  numpages = {8},
+  publisher = {ACM}
+}
+
+@INPROCEEDINGS{Wang,
+  author = {Sy Bor Wang and Quattoni, A. and Morency, L. -P. and Demirdjian,
+	D. and Darrell, T. },
+  title = {Hidden Conditional Random Fields for Gesture Recognition},
+  booktitle = {Proc. IEEE Computer Society Conference on Computer Vision and Pattern
+	Recognition},
+  year = {2006},
+  volume = {2},
+  pages = {1521--1527},
+  owner = {tmf},
+  timestamp = {2009.12.18}
+}
+
+@INPROCEEDINGS{Wilson,
+  author = {Wilson, A. D. and Bobick, A. F. and Cassell, J.},
+  title = {Recovering the temporal structure of natural gesture},
+  booktitle = {Proc. Second International Conference on Automatic Face and Gesture
+	Recognition},
+  year = {1996},
+  pages = {66--71},
+  month = {14--16 October},
+  owner = {tmf},
+  timestamp = {2009.12.18}
+}
+
+@ARTICLE{Wren,
+  author = {Wren, C. R. and Azarbayejani, A. and Darrell, T. and Pentland, A.
+	P.},
+  title = {Pfinder: real-time tracking of the human body},
+  journal = IEEE_J_PAMI,
+  year = {1997},
+  volume = {19},
+  pages = {780--785},
+  number = {7},
+  month = {July },
+  owner = {tmf},
+  timestamp = {2009.12.18}
+}
+
+@INPROCEEDINGS{Yang,
+  author = {Yang, Hee-Deok and Park, A-Yeon and Lee, Seong-Whan},
+  title = {{Robust spotting of key gestures from whole body motion sequence}},
+  booktitle = {{Proceedings of the Seventh International Conference on Automatic
+	Face and Gesture Recognition - Proceedings of the Seventh International
+	Conference}},
+  year = {{2006}},
+  pages = {{231-236}},
+  abstract = {{Robust gesture recognition in video requires segmentation of the
+	meaningful gestures from a whole body gesture sequence. This is a
+	challenging problem because it is not straightforward to describe
+	and model meaningless gesture patterns. This paper presents a new
+	method for simultaneous spotting and recognition of whole body key
+	gestures. A human subject is first described by a set of features
+	encoding the angular relations between a dozen body parts in 3D.
+	A feature vector is then mapped to a codeword of gesture HMMs. In
+	order to spot key gestures accurately, a sophisticated method of
+	designing a garbage gesture model is proposed; a model reduction
+	which merges similar states based on data-dependent statistics and
+	relative entropy. This model provides an effective mechanism for
+	qualifying or disqualifying gestural motions. The proposed method
+	has been tested with 20 persons' samples and 80 synthetic data. The
+	proposed method achieved a reliability rate of 94.8\% in spotting
+	task and a recognition rate of 97.4\% from an isolated gesture.}},
+  affiliation = {{Lee, SW (Reprint Author), Korea Univ, Dept Comp Sci \& Engn, Anam
+	Dong, Seoul 136713, South Korea. Korea Univ, Dept Comp Sci \& Engn,
+	Seoul 136713, South Korea.}},
+  book-group-author = {{IEEE Comp Soc}},
+  doc-delivery-number = {{BEE91}},
+  isbn = {{0-7695-2503-2}},
+  keywords-plus = {{RECOGNITION}},
+  language = {{English}},
+  number-of-cited-references = {{9}},
+  owner = {tmf},
+  subject-category = {{Computer Science, Artificial Intelligence; Computer Science, Cybernetics}},
+  times-cited = {{2}},
+  timestamp = {2011.01.22},
+  type = {{Proceedings Paper}},
+  unique-id = {{ISI:000237018500037}}
+}
+
+@INPROCEEDINGS{Yang-a,
+  author = {Hee-Deok Yang and A-Yeon Park and Seong-Whan Lee},
+  title = {Human-Robot Interaction by Whole Body Gesture Spotting and Recognition},
+  booktitle = {Proc. 18th International Conference on Pattern Recognition ICPR 2006},
+  year = {2006},
+  volume = {4},
+  pages = {774--777},
+  doi = {10.1109/ICPR.2006.642},
+  owner = {tmf},
+  timestamp = {2009.12.18}
+}
+
+@ARTICLE{blurry,
+  author = {Ming-Hsuan Yang and Ahuja, N. and Tabb, M.},
+  title = {{Extraction of 2D motion trajectories and its application to hand
+	gesture recognition}},
+  journal = {Pattern Analysis and Machine Intelligence, IEEE Transactions on},
+  year = {2002},
+  volume = {24},
+  pages = { 1061 - 1074},
+  number = {8},
+  month = aug,
+  abstract = { We present an algorithm for extracting and classifying two-dimensional
+	motion in an image sequence based on motion trajectories. First,
+	a multiscale segmentation is performed to generate homogeneous regions
+	in each frame. Regions between consecutive frames are then matched
+	to obtain two-view correspondences. Affine transformations are computed
+	from each pair of corresponding regions to define pixel matches.
+	Pixels matches over consecutive image pairs are concatenated to obtain
+	pixel-level motion trajectories across the image sequence. Motion
+	patterns are learned from the extracted trajectories using a time-delay
+	neural network. We apply the proposed method to recognize 40 hand
+	gestures of American Sign Language. Experimental results show that
+	motion patterns of hand gestures can be extracted and recognized
+	accurately using motion trajectories.},
+  issn = {0162-8828},
+  keywords = { 2D motion classification; 2D motion extraction; 2D motion trajectory
+	extraction; American Sign Language; affine transformations; consecutive
+	image pairs; hand gesture recognition; image sequence; motion trajectories;
+	multiscale segmentation; pixel match concatenation; pixel-level motion
+	trajectories; time-delay neural network; two-view correspondences;
+	delays; gesture recognition; image classification; image motion analysis;
+	image sequences; neural nets;}
+}
+
+@ELECTRONIC{codelab,
+  title = {{Code Laboratories PS3 Eye driver}},
+  url = {http://codelaboratories.com/products/eye/driver/},
+  owner = {tmf},
+  timestamp = {2011.01.24}
+}
+
+@ELECTRONIC{cvblobslib,
+  title = {{Blob extraction library cvBlobsLib}},
+  url = {http://opencv.willowgarage.com/wiki/cvBlobsLib},
+  owner = {tmf},
+  timestamp = {2011.01.21}
+}
+
+@ELECTRONIC{htk,
+  title = {{Hidden Markov Model Toolkit}},
+  url = {http://htk.eng.cam.ac.uk/},
+  owner = {tmf},
+  timestamp = {2011.01.24}
+}
+
+@ELECTRONIC{kinect,
+  title = {Xbox 360 Kinect},
+  organization = {Microsoft},
+  url = {http://www.xbox.com/kinect},
+  owner = {tmf},
+  timestamp = {2011.01.25}
+}
+
+@ELECTRONIC{nuigroup,
+  title = {{Natural User Interface Group}},
+  url = {http://nuigroup.com},
+  owner = {tmf},
+  timestamp = {2011.01.24}
+}
+
+@ELECTRONIC{opencv-web,
+  title = {{OpenCV Wiki}},
+  organization = {Willow Garage},
+  url = {http://opencv.willowgarage.com/wiki/},
+  owner = {tmf},
+  timestamp = {2011.01.20}
+}
+
+@ELECTRONIC{pointgrey,
+  title = {{Point Grey Firefly MV CMOS Camera}},
+  url = {http://www.ptgrey.com/products/fireflymv/fireflymv_usb_firewire_cmos_camera.asp},
+  owner = {tmf},
+  timestamp = {2011.01.24}
+}
+
+@ELECTRONIC{ps3eye,
+  title = {{Playstation 3 Eye Camera}},
+  url = {http://us.playstation.com/ps3/accessories/playstation-eye-camera-ps3.html},
+  owner = {tmf},
+  timestamp = {2011.01.24}
+}
+
+@ELECTRONIC{qt,
+  title = {{QT: Graphical User Interface framwork}},
+  organization = {Nokia},
+  url = {http://qt.nokia.com/},
+  owner = {tmf},
+  timestamp = {2011.01.20}
+}
+
+@ELECTRONIC{unibrain,
+  title = {{Unibrain Fire-i 501 VGA high frame rate camera}},
+  url = {http://www.unibrain.com/products/visionimg/fire_i_501.htm},
+  owner = {tmf},
+  timestamp = {2011.01.24}
+}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_keywords:}
+

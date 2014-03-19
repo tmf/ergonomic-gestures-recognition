@@ -1,0 +1,50 @@
+\BOOKMARK [-1][]{section*.1}{Abstract}{}% 1
+\BOOKMARK [-1][]{section*.4}{Contents}{}% 2
+\BOOKMARK [0][]{chapter.1}{1 Introduction}{section*.4}% 3
+\BOOKMARK [1][-]{section.1.1}{1.1 Context}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{1.2 Ergonomic gestures}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{1.3 Goals}{chapter.1}% 6
+\BOOKMARK [0][]{chapter.2}{2 Gesture recognition}{section*.4}% 7
+\BOOKMARK [1][-]{section.2.1}{2.1 Tracking}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Figure-ground segmentation}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Temporal correspondences}{section.2.1}% 10
+\BOOKMARK [1][-]{section.2.2}{2.2 Pose estimation}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Model-free}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Indirect model use}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Direct model use}{section.2.2}% 14
+\BOOKMARK [1][-]{section.2.3}{2.3 Recognition}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.4}{2.4 Our approach}{chapter.2}% 16
+\BOOKMARK [0][]{chapter.3}{3 Setup and frameworks}{section*.4}% 17
+\BOOKMARK [1][-]{section.3.1}{3.1 Hardware}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Camera}{section.3.1}% 19
+\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Glove}{section.3.1}% 20
+\BOOKMARK [2][-]{subsection.3.1.3}{3.1.3 Environmental constraints}{section.3.1}% 21
+\BOOKMARK [1][-]{section.3.2}{3.2 Software}{chapter.3}% 22
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Overview}{section.3.2}% 23
+\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Libraries and frameworks}{section.3.2}% 24
+\BOOKMARK [0][]{chapter.4}{4 Chosen gestures}{section*.4}% 25
+\BOOKMARK [1][-]{section.4.1}{4.1 Wizard of Oz experiment}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.2}{4.2 Gestures}{chapter.4}% 27
+\BOOKMARK [0][]{chapter.5}{5 Design and implementation}{section*.4}% 28
+\BOOKMARK [1][-]{section.5.1}{5.1 Architecture}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.2}{5.2 Tracker configuration}{chapter.5}% 30
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Filter chain}{section.5.2}% 31
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Image processing filters}{section.5.2}% 32
+\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 Chosen filter chain}{section.5.2}% 33
+\BOOKMARK [1][-]{section.5.3}{5.3 Model mapping}{chapter.5}% 34
+\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 Hand model}{section.5.3}% 35
+\BOOKMARK [2][-]{subsection.5.3.2}{5.3.2 Mapping}{section.5.3}% 36
+\BOOKMARK [1][-]{section.5.4}{5.4 Training and classification}{chapter.5}% 37
+\BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Sample collection}{section.5.4}% 38
+\BOOKMARK [2][-]{subsection.5.4.2}{5.4.2 Sample supervision}{section.5.4}% 39
+\BOOKMARK [2][-]{subsection.5.4.3}{5.4.3 Posture training}{section.5.4}% 40
+\BOOKMARK [2][-]{subsection.5.4.4}{5.4.4 Posture classification}{section.5.4}% 41
+\BOOKMARK [2][-]{subsection.5.4.5}{5.4.5 Gesture classification}{section.5.4}% 42
+\BOOKMARK [0][]{chapter.6}{6 Evaluation}{section*.4}% 43
+\BOOKMARK [1][-]{section.6.1}{6.1 Evaluation results}{chapter.6}% 44
+\BOOKMARK [1][-]{section.6.2}{6.2 Use case}{chapter.6}% 45
+\BOOKMARK [0][]{chapter.7}{7 Conclusion and outlook}{section*.4}% 46
+\BOOKMARK [0][]{chapter*.52}{Bibliography}{section*.4}% 47
+\BOOKMARK [0][]{chapter*.53}{List of Figures}{section*.4}% 48
+\BOOKMARK [0][]{chapter*.54}{List of Tables}{section*.4}% 49
+\BOOKMARK [-1][]{section*.55}{Appendix}{}% 50

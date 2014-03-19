@@ -1,0 +1,21 @@
+\chapter{Conclusion and outlook}
+\label{chap:conclusion-and-outlook}
+
+This chapter will recapitulate the master thesis, point out the achievements and mention areas of improvement and problems. \\
+In chapter \ref{chap:introduction} a definition of \textit{ergonomic gestures} and the goals of this project have been presented. In an overview, chapter \ref{chap:gesture-recognition} illustrated the different steps involved in gesture recognition, each with some examples from research. It also outlined the general structure and the focus that this project will have on an implementational level. Chapter \ref{chap:setup-and-frameworks} presented the necessary hardware and software, as well as the constraints limiting the scope of this project. With the proposition of the gestures that this project is focusing on (see chapter \ref{chap:chosen-gestures}), all the preliminary informations were present to propose an architecture for real-time gesture recognition. The design and implementation details of this architecture were further discussed in chapter \ref{chap:design-and-implementation}, whereas chapter \ref{chap:evaluation} evaluated this architecture.
+
+This master thesis project achieved its main goal, namely to design and implement a real-time capable gesture recognition system. 
+The most important aspects for ergonomic application control gestures that were also obtained in the evaluation study \cite{psychology} (see section \ref{sec:wizard-of-oz-experiment}) were:
+\begin{itemize}
+\item Fast reaction time
+\item Gestures that are easy to learn and can be generalized into an execution of motions and key postures that can be shared among multiple users
+\end{itemize}
+Additionally to these achievements, the system is also able to recognize small differences and track precisely the small-grained (i.e. zoom factor of the pinching gesture), articulated nature of ergonomic gestures. 
+
+For more complex gestures several future developments can be considered as extensions to this master thesis:
+\begin{itemize}
+\item train more postures and investigate the SVM parametrization to obtain distinguishable posture classification results,
+\item use HMM's to classify gestures with complex temporal or spatial dependencies,
+\item replace the tracking module with some other real-time capable hand tracking system that does not need the use of a color-marked glove
+\end{itemize}
+

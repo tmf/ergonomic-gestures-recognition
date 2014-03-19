@@ -1,0 +1,79 @@
+%% Dokumentenklasse (Koma Script) -----------------------------------------
+\documentclass[%
+   %draft,     % Entwurfsstadium
+   final,      % fertiges Dokument
+	 % --- Paper Settings ---
+   paper=a4,% [Todo: add alternatives]
+   paper=portrait, % landscape
+   pagesize=auto, % driver
+   % --- Base Font Size ---
+   fontsize=11.5pt,%
+	 % --- Koma Script Version ---
+   version=last, %
+ ]{scrreprt} % Classes: scrartcl, scrreprt, scrbook
+
+
+% Encoding der Dateien (sonst funktionieren Umlaute nicht)
+% Fuer Linux -> utf8
+% Fuer Windows, alte Linux Distributionen -> latin1
+
+% Empfohlen latin1, da einige Pakete mit utf8 Zeichen nicht
+% funktionieren, z.B: listings, soul.
+\usepackage[latin1]{inputenc}
+%\usepackage[ansinew]{inputenc}
+%\usepackage[utf8]{inputenc}
+%\usepackage{ucs}
+%\usepackage[utf8x]{inputenc}
+
+%%% Preambel
+\input{preambel/settings}
+\input{preambel/preambel}
+\input{macros/newcommands}
+\input{macros/TableCommands}
+\input{preambel/Hyphenation}
+
+
+
+\begin{document}
+\input{content/title}
+\frontmatter
+
+\phantomsection
+\addcontentsline{toc}{part}{Abstract}
+\input{content/abstract}
+
+\cleardoublepage
+\input{content/acknowledgments}
+\cleardoublepage
+
+\phantomsection
+\addcontentsline{toc}{part}{Contents}
+%\pdfbookmark[1]{Contents}{toc}
+\tableofcontents
+
+\cleardoublepage
+\mainmatter
+
+\input{content/1-introduction}
+\input{content/2-gesturerecognition}
+\input{content/3-setupandframeworks}
+\input{content/4-chosengestures}
+\input{content/5-designandimplementation}
+\input{content/6-evaluation}
+\input{content/7-conclusionandoutlook}
+
+\bibliography{bib/egr}
+\clearpage
+\listoffigures
+\listoftables
+
+\clearpage
+\appendix
+\phantomsection
+\addcontentsline{toc}{part}{Appendix}
+\input{content/z-appendix}
+
+\IfDefined{printindex}{\printindex}
+\IfDefined{printnomenclature}{\printnomenclature}
+
+\end{document}

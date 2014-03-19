@@ -1,0 +1,91 @@
+This is BibTeX, Version 0.99d (TeX Live 2010)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: egr.aux
+The style file: bib/bst/unsrtnat.bst
+Database file #1: bib/egr.bib
+Warning--string name "ieee_j_pami" is undefined
+--line 734 of file bib/egr.bib
+Warning--entry type for "codelab" isn't style-file defined
+--line 830 of file bib/egr.bib
+Warning--entry type for "cvblobslib" isn't style-file defined
+--line 837 of file bib/egr.bib
+Warning--entry type for "htk" isn't style-file defined
+--line 844 of file bib/egr.bib
+Warning--entry type for "nuigroup" isn't style-file defined
+--line 859 of file bib/egr.bib
+Warning--entry type for "opencv-web" isn't style-file defined
+--line 866 of file bib/egr.bib
+Warning--entry type for "pointgrey" isn't style-file defined
+--line 874 of file bib/egr.bib
+Warning--entry type for "ps3eye" isn't style-file defined
+--line 881 of file bib/egr.bib
+Warning--entry type for "qt" isn't style-file defined
+--line 888 of file bib/egr.bib
+Warning--entry type for "unibrain" isn't style-file defined
+--line 896 of file bib/egr.bib
+Name 1 in "Mori, G., Malik, J.," has a comma at the end for entry Mori-a
+while executing---line 2465 of file bib/bst/unsrtnat.bst
+Too many commas in name 1 of "Mori, G., Malik, J.," for entry Mori-a
+while executing---line 2465 of file bib/bst/unsrtnat.bst
+Warning--can't use both author and editor fields in kurtenbach
+Warning--can't use both author and editor fields in schiaratura
+Warning--empty journal in Wren
+Name 1 in "Mori, G., Malik, J.," has a comma at the end for entry Mori-a
+while executing---line 2629 of file bib/bst/unsrtnat.bst
+Too many commas in name 1 of "Mori, G., Malik, J.," for entry Mori-a
+while executing---line 2629 of file bib/bst/unsrtnat.bst
+Name 1 in "Mori, G., Malik, J.," has a comma at the end for entry Mori-a
+while executing---line 2629 of file bib/bst/unsrtnat.bst
+Too many commas in name 1 of "Mori, G., Malik, J.," for entry Mori-a
+while executing---line 2629 of file bib/bst/unsrtnat.bst
+Warning--empty year in pointgrey
+Warning--empty year in unibrain
+Warning--empty year in ps3eye
+Warning--empty year in nuigroup
+Warning--empty year in codelab
+Warning--empty year in opencv-web
+Warning--empty year in qt
+Warning--empty year in cvblobslib
+Warning--empty year in htk
+You've used 39 entries,
+            2481 wiz_defined-function locations,
+            800 strings with 10821 characters,
+and the built_in function-call counts, 15975 in all, are:
+= -- 1436
+> -- 542
+< -- 38
++ -- 232
+- -- 154
+* -- 1109
+:= -- 2174
+add.period$ -- 119
+call.type$ -- 39
+change.case$ -- 75
+chr.to.int$ -- 39
+cite$ -- 60
+duplicate$ -- 910
+empty$ -- 1631
+format.name$ -- 202
+if$ -- 3668
+int.to.chr$ -- 1
+int.to.str$ -- 40
+missing$ -- 32
+newline$ -- 204
+num.names$ -- 90
+pop$ -- 414
+preamble$ -- 1
+purify$ -- 39
+quote$ -- 0
+skip$ -- 660
+stack$ -- 0
+substring$ -- 865
+swap$ -- 285
+text.length$ -- 24
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 264
+warning$ -- 12
+while$ -- 116
+width$ -- 0
+write$ -- 500
+(There were 6 error messages)

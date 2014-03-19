@@ -1,0 +1,9 @@
+CL-Eye-Driver-4-1.0.2.1017.exe
+CL-Eye-Platform-SDK-1-1.2.0.1008.exe
+cmake-2-1.8.3-win32-x86.exe
+cvBlobsLib.zip
+dlib-17-1.34.tar.bz2
+libconfig-1-2.4.6.tar
+OpenCV-2.0.0a-win32.exe
+qt-everywhere-opensource-src-4.7.1.zip
+qt-vs-addin-1-3.1.7.exe
